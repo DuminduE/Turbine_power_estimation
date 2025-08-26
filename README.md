@@ -39,7 +39,7 @@ The script processes a CSV file exported from the turbine SCADA system.
 ⚠️ Column positions are specific to the SCADA file format. In the GitHub repo, the CSV is **anonymized**.
 
 Interactive environment for single input ( one data interval) : 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<username>/turbine-power-estimation/blob/main/demo.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<username>/turbine-power-estimation/blob/main/WT_power_est_demo.ipynb)
 
 ---
 
@@ -119,7 +119,7 @@ pip install pandas numpy scipy matplotlib
 ### Interactive Notebook
 
 You can run the interactive demo in the browser without installing anything:
-- **[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<username>/turbine-power-estimation/blob/main/demo.ipynb)** Click the badge above to open `demo.ipynb` with interactive sliders and plots.  
+- **[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<username>/turbine-power-estimation/blob/main/WT_power_est_demo.ipynb)** Click the badge above to open `demo.ipynb` with interactive sliders and plots.  
 - **Binder:** Click the badge to launch a temporary Jupyter environment with all dependencies installed.
 
 **Features:**
