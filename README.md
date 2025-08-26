@@ -1,5 +1,5 @@
-# Turbine_power_estimation
-Estimation of Wind Turbine Power Output from SCADA Data using Weibull Distribution and Spline-Interpolated Power Curve
+# Wind Turbine_power_estimation
+Estimation of Wind Turbine Power Output from SCADA Data (Vensys 82 machine) using Weibull Distribution and Spline-Interpolated Power Curve
 ## Overview
 This project estimates wind turbine power output using SCADA data by reconstructing wind speed distributions with Weibull statistics and applying cubic spline-interpolated turbine power curves. The model provides a performance benchmark by comparing predicted and actual turbine output.
 
