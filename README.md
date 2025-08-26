@@ -119,7 +119,7 @@ pip install pandas numpy scipy matplotlib
 ### Interactive Notebook
 
 You can run the interactive demo in the browser without installing anything:
-- **[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<DuminduE>/turbine-power-estimation/blob/main/WT_power_est_demo.ipynb)** Click the badge above to open `demo.ipynb` with interactive sliders and plots.  
+- **[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/<DuminduE>/turbine-power-estimation/main?filepath=WT_power_estdemo.ipynb)** Click the badge above to open `demo.ipynb` with interactive sliders and plots.  
 - **Binder:** Click the badge to launch a temporary Jupyter environment with all dependencies installed.
 
 **Features:**
