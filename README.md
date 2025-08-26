@@ -1,5 +1,6 @@
 # Wind Turbine_power_estimation
 Estimation of Wind Turbine Power Output from SCADA Data (Vensys 82 machine) using Weibull Distribution and Spline-Interpolated Power Curve
+
 ## Overview
 This project estimates wind turbine power output using SCADA data by reconstructing wind speed distributions with Weibull statistics and applying cubic spline-interpolated turbine power curves. The model provides a performance benchmark by comparing predicted and actual turbine output.
 
@@ -36,6 +37,9 @@ The script processes a CSV file exported from the turbine SCADA system.
 | Wind speed standard deviation | 88 | wind_speed_std_dev |
 
 ⚠️ Column positions are specific to the SCADA file format. In the GitHub repo, the CSV is **anonymized**.
+
+Interactive environment for single input ( one data interval) : 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<username>/turbine-power-estimation/blob/main/demo.ipynb)
 
 ---
 
@@ -95,6 +99,7 @@ Average Assumed Power Production Percentage (for filtered data): 94.28%
  
 - **Underperformance Detection:** Highlight low-efficiency intervals
   <img width="712" height="267" alt="image" src="https://github.com/user-attachments/assets/f6efe9df-7c71-4473-9f63-011d710d4325" />
+
   
 
 ---
@@ -110,3 +115,16 @@ Average Assumed Power Production Percentage (for filtered data): 94.28%
 Install dependencies:
 ```bash
 pip install pandas numpy scipy matplotlib
+```
+### Interactive Notebook
+
+You can run the interactive demo in the browser without installing anything:
+- **[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<username>/turbine-power-estimation/blob/main/demo.ipynb)** Click the badge above to open `demo.ipynb` with interactive sliders and plots.  
+- **Binder:** Click the badge to launch a temporary Jupyter environment with all dependencies installed.
+
+**Features:**
+
+- Input mean, std deviation, min/max wind speeds
+- Generate Weibull-distributed wind speed samples
+- Estimate expected turbine power and energy
+- Visualize distribution and expected power output
